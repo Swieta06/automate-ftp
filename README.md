@@ -49,13 +49,19 @@ Sistem otomatisasi untuk:
 
 ## ▶️ Cara Menjalankan
 
-### 1. Install library
+### 1. Setup .env
+
+```bash
+pip install setup_env.py
+```
+
+### 2. Install library
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Konfigurasi
+### 3. Konfigurasi
 
 Edit `config.py`:
 
@@ -63,7 +69,7 @@ Edit `config.py`:
 * `DB_CONFIG` → koneksi ke SQL Server
 * `EMAIL_CONFIG` → SMTP Outlook & penerima
 
-### 3. Jalankan
+### 4. Jalankan
 
 ```bash
 python main.py
