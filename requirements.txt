@@ -1,7 +1,3 @@
-# requirements.txt
 pandas
 openpyxl
 pyodbc
-ftplib  # built-in, hanya catatan
-smtplib  # built-in, hanya catatan
-email  # built-in, hanya catatan
