@@ -52,7 +52,7 @@ Sistem otomatisasi untuk:
 ### 1. Setup .env
 
 ```bash
-pip install setup_env.py
+python setup_env.py
 ```
 
 ### 2. Install library
